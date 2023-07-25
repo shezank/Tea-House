@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tea House</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Font Awsome -->
+  <script src="https://kit.fontawesome.com/0b09540336.js" crossorigin="anonymous"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    .manrop {
+      font-family: 'Manrope', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <!-- Bannar Section with Rating -->
+
+    <section class="container mx-auto">
+      <div class="hero min-h-screen">
+        <div class="hero-content gap-8 flex-col lg:flex-row-reverse">
+          <div class="flex-1">
+            <div class=" ">
+              <img src="./images/banner.png" />
+            </div>
+            <div class="flex items-center rounded-lg bg-white w-52 -mt-20 p-4 drop-shadow-lg">
+              <div>
+                <i class="fa-solid fa-star   text-amber-500 pr-2 text-2xl"></i>
+              </div>
+              <div>
+                <h1>5.00</h1>
+                <p>Trust Pilot Ratings</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1">
+            <h1 class="text-7xl font-bold">It's good <br>
+              tea time at The <br>
+              Tea House</h1>
+            <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+              quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+            <button class="btn btn-primary">Explore More</button>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+  </header>
+
+
+
+  <main>
+    <!-- Feture Section Start -->
+    <section class="container mx-auto text-center">
+      <h1 class="text-5xl font-extrabold pb-5">Our Featured Products</h1>
+      <p class="max-w-4xl mx-auto font-medium pb-12">There are many variations of passages of Lorem Ipsum available, but
+        the majority have suffered alteration in
+        some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+
+      <div class="grid gap-7 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <!-- First Card -->
+        <div class="card bg-base-200 shadow-xl space-y-4 p-7">
+          <figure><img src="/images/tea-1.png" alt="Shoes" /></figure>
+          <div class="text-center">
+            <h2 class="text-2xl font-extrabold">Black Tea</h2>
+            <p class="font-semibold text-slate-400">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- Second Card -->
+        <div class="card bg-base-200 shadow-xl space-y-4 p-7">
+          <figure><img src="/images/tea-2.png" alt="Shoes" /></figure>
+          <div class="text-center">
+            <h2 class="text-2xl font-extrabold">Lemon Tea</h2>
+            <p class="font-semibold text-slate-400">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- Third Card -->
+        <div class="card bg-base-200 shadow-xl space-y-4 p-7">
+          <figure><img src="/images/tea-3.png" alt="Shoes" /></figure>
+          <div class="text-center">
+            <h2 class="text-2xl font-extrabold">Green Tea</h2>
+            <p class="font-semibold text-slate-400">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+        <!-- Forth Card -->
+        <div class="card bg-base-200 shadow-xl space-y-4 p-7">
+          <figure><img src="/images/tea-4.png" alt="Shoes" /></figure>
+          <div class="text-center">
+            <h2 class="text-2xl font-extrabold">Milk Tea</h2>
+            <p class="font-semibold text-slate-400">Creamer could be replaced by fresh milk</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Great Tea Section Start -->
+
+
+    <section class="container mx-auto mt-36">
+      <div class="flex gap-12 flex-row lg:felx-cols">
+        <div class="grid gap-7 grid-cols-1 md:grid-cols-2 flex-1">
+          <div class="h-32 bg-gradient-to-r from-red-100 to-yellow-100 rounded-lg"></div>
+          <div class="bg-yellow-100 row-span-2 p-7 rounded-lg flex justify-center items-center">
+            <img src="./images/fresh-1.png" alt="">
+          </div>
+          <div class="bg-gray-200 p-7 row-span-2 rounded-lg flex justify-center items-center">
+            <img src="./images/fresh-2.png" alt="">
+          </div>
+          <div class="h-32 bg-gradient-to-r from-gray-400 to-white rounded-lg"></div>
+
+        </div>
+        <div class="space-y-5 flex-1">
+          <div>
+            <h1 class="text-5xl font-extrabold pb-3">Great Tea, Freshly <br> Presented</h1>
+            <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It
+              represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply
+              appreciated by its custoers because of good words of mouth and unique customized service orginated from
+              Taiwan.</p>
+          </div>
+          <div>
+            <h2 class=" text-xl font-extrabold pb-3">Unique Taste</h2>
+            <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+          </div>
+          <div>
+            <h2 class=" text-xl font-extrabold pb-3">Premium Quality</h2>
+            <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Clicent Reveiw Start -->
+
+    
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>
